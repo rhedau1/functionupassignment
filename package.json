@@ -1,0 +1,26 @@
+{
+  "name": "thorium",
+  "version": "1.0.0",
+  "description": "1. Shabdika Pandey\r 2. S Tujliman\r 3. Pramod Jadhav\r 4. Rahul Hedau",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabihak89/thorium.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabihak89/thorium/issues"
+  },
+  "homepage": "https://github.com/sabihak89/thorium#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.7",
+    "validator": "^13.7.0"
+  }
+}
