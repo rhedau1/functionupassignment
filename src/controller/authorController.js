@@ -25,24 +25,6 @@ const createAuthor = async function (req, res) {
   }
 };
 
-// const loginAuthor = async function (req, res) {
-//     let authorEmail = req.body.email;
-//     let password = req.body.password;
-
-//     let author = await AuthorModel.findOne({ email: authorEmail, password: password });
-//     if (!author)
-//         return res.send({ status: false, msg: "username or the password is not correct" });
-
-// //sending token with succesfull login-
-//     let token = jwt.sign(
-//         {
-//             authorId: author._id.toString()
-//         },
-//         "project-blog"
-//     );
-//     res.setHeader("x-api-key", token);
-//     res.send({ status: true, data: token });
-// };
 
 const loginUser = async (req, res) => {
   try {

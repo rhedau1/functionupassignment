@@ -23,29 +23,7 @@ const createBlog = async function (req, res) {
       res.status(500).send({ msg: err.message })
   }
 }
-// const createBlog = async function (req, res) {
-//   try {
-//     let authorId = req.body.authorId;
-//     let data = req.body;
 
-//     if (!authorId)
-//       return res.send(
-//         "The request is not valid as the author details are required."
-//       );
-
-//     let author = await authorModel.findById(authorId);
-//     if (!author)
-//       return res.send(
-//         "The request is not valid as no author is present with  given author id"
-//       );
-
-//     let createdBlog = await blogModel.create(data);
-//     res.send({ data: createdBlog });
-//   } catch (err) {
-//     console.log(err);
-//     res.status(500).send({ msg: err.message });
-//   }
-// };
 
 //GETBLOG-
 
